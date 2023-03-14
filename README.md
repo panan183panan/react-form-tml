@@ -1,70 +1,7 @@
-# Getting Started with Create React App
+面试官您好，很荣幸能够参加这次面试应聘贵公司前端开发的岗位，我叫潘安，是杭州师范大学信息科学与技术学院 软件工程专业，23届本科应届毕业生，我是在大三的时候自学前端的相关技术，比较熟悉html、css、JavaScript、以及es6新增的一些方法，promise、async await、generate等一些特性，比较熟悉的框架是vue2，了解vue的双向绑定原理，diff算法等，以及平时开发使用到的vuex、vue-router等。也自学过vue3，了解vue3的新的技术，掌握版本控制工具git，测试工具postman，apipost等，常用开发工具是vscode，hbuilder也有简单使用过。然后掌握的react框架，函数式组件开发和Hook开发都使用过，对hook较为熟悉一点，并自己写过一些项目，平时会将一些知识点记录到本地博客或自己搭建的Halo博客中。之前有过一段实习的经历，与政府合作的一个项目，主要框架是vue2+elementUI的全家桶，目前在一家中型公司实习中，主要用到的框架是vant+vue2和vue3，接触比较多的是vue2。是基于移动端的应用开发。目前正准备双十一双十二的活动开发。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+最近在做的是基于react的表单编辑器的毕业设计，并撰写毕业论文
 
-## Available Scripts
+然后我个人在大一大二在学院和校级都担任过一些职务，并获得优秀干事，获得过“三下乡”社会实践三等奖，参加过服务外包大赛，也参加过全国大学生数学建模美赛，并获得三等奖。嗯，面试官，我介绍完毕。
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+技术栈主要用哪个？

@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "652ebef2da543aed912acb16fd4795e7",
+      "password": "675a3867bd36ed867d480551c1000dc4",
+      "email": "5827f9787117df15787d141ba5839c2892acc9122f1323094acc92220b913549"
+    },
+    {
+      "id": 2,
+      "username": "03d2bafbace52cf2a77f9fbaa04ee8da",
+      "password": "675a3867bd36ed867d480551c1000dc4",
+      "email": "5827f9787117df15787d141ba5839c2892acc9122f1323094acc92220b913549"
+    },
+    {
+      "id": "b454d8c3-d991-48cd-bb04-efa64af057bd",
+      "username": "3628cea51a02c9d5f65dc678b9465757",
+      "password": "fd3bd0f4d38b5ce37ba8def81cfbfb69",
+      "email": "5827f9787117df15787d141ba5839c2892acc9122f1323094acc92220b913549"
+    }
+  ],
+  "list": [
+    {
+      "id": 1,
+      "username": "652ebef2da543aed912acb16fd4795e7",
+      "name": "hello",
+      "title": "My First Page",
+      "type": "page",
+      "icon": "PieChartOutlined",
+      "body": {
+        "type": "object",
+        "labelWidth": 120,
+        "displayType": "row",
+        "properties": {
+          "input_PwNAD0": {
+            "title": "输入框",
+            "type": "string",
+            "x-component-props": {},
+            "name": "input_PwNAD0",
+            "key": "input_PwNAD0",
+            "props": {}
+          },
+          "date_0nLbEp": {
+            "title": "日期选择",
+            "type": "string",
+            "format": "date",
+            "name": "date_0nLbEp",
+            "key": "date_0nLbEp"
+          },
+          "checkbox_HLgWIy": {
+            "title": "是否选择",
+            "type": "boolean",
+            "x-component": "checkbox",
+            "name": "checkbox_HLgWIy",
+            "key": "checkbox_HLgWIy"
+          },
+          "textarea_tVNVPV": {
+            "title": "编辑框",
+            "type": "string",
+            "format": "textarea",
+            "props": {}
+          }
+        }
+      }
+    },
+    {
+      "username": "652ebef2da543aed912acb16fd4795e7",
+      "id": "b8e0638a94f44b1299b95c1325de2f5b",
+      "body": {
+        "type": "object",
+        "labelWidth": 120,
+        "displayType": "row",
+        "properties": {
+          "inputName": {
+            "title": "简单输入框",
+            "type": "string"
+          },
+          "input_VJO14d": {
+            "title": "输入框",
+            "type": "string",
+            "props": {}
+          },
+          "switch_JKaxpd": {
+            "title": "是否选择",
+            "type": "boolean",
+            "widget": "switch"
+          }
+        }
+      },
+      "name": "project2",
+      "title": "悠悠汉字千年情",
+      "icon": "PieChartOutlined"
+    },
+    {
+      "username": "652ebef2da543aed912acb16fd4795e7",
+      "id": "38e21d57f8084f7ab7b3aa65980c4840",
+      "body": {
+        "type": "object",
+        "properties": {
+          "image_9-DrP9": {
+            "title": "图片展示",
+            "type": "string",
+            "format": "image",
+            "index": 0
+          },
+          "checkbox_YQmA0D": {
+            "title": "是否选择",
+            "type": "boolean",
+            "widget": "checkbox"
+          },
+          "number_C4rHMQ": {
+            "title": "数字输入框",
+            "type": "number"
+          },
+          "date_9DYIGz": {
+            "title": "日期选择",
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "name": "project3",
+      "title": "硝化细菌",
+      "icon": "TeamOutlined"
+    }
+  ]
+}
