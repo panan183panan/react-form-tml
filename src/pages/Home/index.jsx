@@ -36,10 +36,11 @@ const App = (props) => {
 
   useEffect(()=>{
     const username = localStorage.getItem("username")||""
-    if(username==""){
+    if(!username){
       props.to('/login')
     }else{
       axios.get(`/list?username=${username}`).then((res) => {
+        console.log(res.data)
         setPages(res.data);
         setItem(getPage(res.data));
       });

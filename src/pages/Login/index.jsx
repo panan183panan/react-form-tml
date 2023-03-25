@@ -45,6 +45,7 @@ function LoginRegister(props) {
       container.classList.remove("sign-up-mode")
     })
   };
+
   const handleCancel = () => {
     setIsModalOpen(false);
   };

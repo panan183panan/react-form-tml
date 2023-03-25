@@ -59,6 +59,22 @@
             "type": "string",
             "format": "textarea",
             "props": {}
+          },
+          "select_Ae1oqi": {
+            "title": "单选",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumNames": [
+              "早",
+              "中",
+              "晚"
+            ],
+            "widget": "select",
+            "index": 2
           }
         }
       }
@@ -84,6 +100,11 @@
             "title": "是否选择",
             "type": "boolean",
             "widget": "switch"
+          },
+          "date_zeyYGX": {
+            "title": "日期选择",
+            "type": "string",
+            "format": "date"
           }
         }
       },

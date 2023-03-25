@@ -4,10 +4,6 @@ import { useHref } from "react-router-dom";
 import axios from "../../../utils/request";
 import WidthUseNavigate from "../../../components/withRouter";
 
-import { render as renderAmis, ToastComponent, AlertComponent } from "amis";
-import "amis/lib/themes/cxd.css";
-import "amis/lib/helper.css";
-import "amis/sdk/iconfont.css";
 import copy from "copy-to-clipboard";
 
 import { HeartTwoTone } from "@ant-design/icons";
