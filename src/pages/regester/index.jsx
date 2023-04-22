@@ -65,6 +65,13 @@ function Regester(props) {
   return (
     <div className="container1">
       <Card className="card">
+      <div
+          style={{
+            width:"100%",
+          }}
+        >
+          <a href="/#/login">返回登录</a>
+        </div>
         <Form form={form} labelCol={5} wrapperCol={16} onAutoSubmit={getForm}>
           <Field
             name="username"
@@ -98,7 +105,7 @@ function Regester(props) {
                 confirm.get("value") &&
                 field.value &&
                 field.value !== confirm.get("value")
-                  ? "Confirm that the password does not match"
+                  ? "两次密码不一致哦~"
                   : "";
             }}
           />
@@ -119,7 +126,7 @@ function Regester(props) {
                 confirm.get("value") &&
                 field.value &&
                 field.value !== confirm.get("value")
-                  ? "Confirm that the password does not match"
+                  ? "两次密码不一致哦~"
                   : "";
             }}
           />

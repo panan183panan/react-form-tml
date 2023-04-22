@@ -48,8 +48,19 @@ const App = (props) => {
   },[])
 
   useEffect(()=>{
-    setNum(localStorage.getItem("num"))
+    const username = localStorage.getItem("username")||""
+    if(!username){
+      props.to('/login')
+    }else{
+      axios.get(`/list?username=${username}`).then((res) => {
+        console.log(res.data)
+        setPages(res.data);
+        setItem(getPage(res.data));
+      });
+    }
+    return setNum(localStorage.getItem("num"))
   },[localStorage.getItem("num")])
+
 
   function getPage(List) {
     const menuItem = [];
@@ -88,7 +99,6 @@ const App = (props) => {
             mode="inline"
             items={[...item, ("icon": getIcon[icon])]}
             onClick={(e) => {
-              // console.log(pages)
               getPage(pages);
               props.to('/home/'+e.key)
             }}

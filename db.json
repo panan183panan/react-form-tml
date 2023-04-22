@@ -17,6 +17,18 @@
       "username": "3628cea51a02c9d5f65dc678b9465757",
       "password": "fd3bd0f4d38b5ce37ba8def81cfbfb69",
       "email": "5827f9787117df15787d141ba5839c2892acc9122f1323094acc92220b913549"
+    },
+    {
+      "id": "2b380a5c-2606-4dd5-9971-c67a7a33d947",
+      "username": "ce721f8df435409fc9d7359888d440bf",
+      "password": "45d5dbd3fd82cc08436d095c1f0cfb3d",
+      "email": "66c107fb0e630c3ec341fddce6be5d88"
+    },
+    {
+      "id": "53d41254-f650-42cd-a0cb-299a9233e44a",
+      "username": "ca7a69ccd20bf6c82bc7f989fe2e18a5",
+      "password": "e85733b746d0e41c9c98cc3e7b173c00",
+      "email": "3f82aa50d51a9b0811f0a25c701354bd"
     }
   ],
   "list": [
@@ -75,6 +87,12 @@
             ],
             "widget": "select",
             "index": 2
+          },
+          "switch_eXIDDr": {
+            "title": "是否选择",
+            "type": "boolean",
+            "widget": "switch",
+            "index": 0
           }
         }
       }
@@ -99,12 +117,45 @@
           "switch_JKaxpd": {
             "title": "是否选择",
             "type": "boolean",
-            "widget": "switch"
+            "widget": "switch",
+            "index": 0
           },
           "date_zeyYGX": {
             "title": "日期选择",
             "type": "string",
             "format": "date"
+          },
+          "select_rWvFLX": {
+            "title": "单选",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumNames": [
+              "早",
+              "中",
+              "晚"
+            ],
+            "widget": "select",
+            "index": 2
+          },
+          "select_6rhVFU": {
+            "title": "单选",
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "c"
+            ],
+            "enumNames": [
+              "早",
+              "中",
+              "晚"
+            ],
+            "widget": "select",
+            "index": 2
           }
         }
       },
@@ -143,6 +194,86 @@
       "name": "project3",
       "title": "硝化细菌",
       "icon": "TeamOutlined"
+    },
+    {
+      "username": "652ebef2da543aed912acb16fd4795e7",
+      "id": "269e7fc763944fdf8b49ffaab33500c8",
+      "body": {},
+      "name": "奥特曼",
+      "title": "你相信光吗",
+      "icon": "FileOutlined"
+    },
+    {
+      "username": "652ebef2da543aed912acb16fd4795e7",
+      "id": "c67f709f79914bd58b288c2ea640448e",
+      "body": {},
+      "name": "schema form",
+      "title": "你相信光吗",
+      "icon": "TeamOutlined"
+    },
+    {
+      "username": "652ebef2da543aed912acb16fd4795e7",
+      "id": "8b4b3ddaa85b4c5d80c14de49a8eb1d7",
+      "body": {},
+      "name": "111",
+      "title": "123",
+      "icon": "FileOutlined"
+    },
+    {
+      "username": "ce721f8df435409fc9d7359888d440bf",
+      "id": "40c3870589934a60aa46c6034539002c",
+      "body": {
+        "type": "object",
+        "properties": {
+          "input_wOzqYD": {
+            "title": "输入框",
+            "type": "string",
+            "props": {}
+          },
+          "textarea_JHSlS1": {
+            "title": "编辑框",
+            "type": "string",
+            "format": "textarea",
+            "props": {}
+          },
+          "date_rLyoWw": {
+            "title": "日期选择",
+            "type": "string",
+            "format": "date"
+          },
+          "input_UwrG-X": {
+            "title": "输入框",
+            "type": "string",
+            "props": {}
+          }
+        }
+      },
+      "name": "111",
+      "title": "222",
+      "icon": "PieChartOutlined"
+    },
+    {
+      "username": "ca7a69ccd20bf6c82bc7f989fe2e18a5",
+      "id": "bd097f185dc8469298b54437ffd6c99a",
+      "body": {
+        "type": "object",
+        "properties": {
+          "input_9KgWPr": {
+            "title": "输入框",
+            "type": "string",
+            "props": {}
+          },
+          "textarea_Amkysz": {
+            "title": "编辑框",
+            "type": "string",
+            "format": "textarea",
+            "props": {}
+          }
+        }
+      },
+      "name": "111",
+      "title": "222",
+      "icon": "FileOutlined"
     }
   ]
 }

@@ -25,14 +25,6 @@ import {
   DownOutlined,
 } from "@ant-design/icons";
 
-// const getIcon = {
-//   DesktopOutlined: <DesktopOutlined />,
-//   FileOutlined: <FileOutlined />,
-//   PieChartOutlined: <PieChartOutlined />,
-//   TeamOutlined: <TeamOutlined />,
-//   UserOutlined: <UserOutlined />,
-// };
-
 function ToHeader(props) {
   const [open, setOpen] = useState(false);
   const [username, setUsername] = useState("用户名");
@@ -94,6 +86,7 @@ function ToHeader(props) {
     }
     else if(e.key==2){
       localStorage.removeItem("username")
+      localStorage.removeItem("num")
       props.to('/login')
     }
   }
